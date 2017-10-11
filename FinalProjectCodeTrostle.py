@@ -5,11 +5,11 @@ import codecs
 import re
 from textblob import TextBlob
 
-
-api = twitter.Api(consumer_key='Q5UEumB5PZcwfZ1Lb2QfoneAC',
-                  consumer_secret='9KeOHkZbLl0UuhdjlCNbVaVZhuzBEFu92y0F4xxUoReTLH3i0i',
-                  access_token_key='1378003982-iXfSJJxVrUIyoAPuT7xzkq7Z9BAprnbQL1OQlRu',
-                  access_token_secret='ZdqXz2wHHQSfuTcxANhKm5FHKvZJnJs7bOZo2kEv8Fy9O')
+#Keys redacted
+api = twitter.Api(consumer_key='',
+                  consumer_secret='',
+                  access_token_key='',
+                  access_token_secret='')
 
 
 def unescape(s):
@@ -122,110 +122,9 @@ paths, attributes, svg_attributes = svg2paths2('map.svg')
 state = find_state_index("VA")
 # set the color
 set_state_color(state, "#0000ff")
-#VeryHighHappiness
-state = find_state_index("WA")
-set_state_color(state, "#0000ff")
-state = find_state_index("NY")
-set_state_color(state, "#0000ff")
-state = find_state_index("AL")
-set_state_color(state, "#0000ff")
-state = find_state_index("HI")
-set_state_color(state, "#0000ff")
-state = find_state_index("LA")
-set_state_color(state, "#0000ff")
-state = find_state_index("ME")
-set_state_color(state, "#0000ff")
-state = find_state_index("MA")
-set_state_color(state, "#0000ff")
-#HighHappiness
-state = find_state_index("MO")
-set_state_color(state, "#0080ff")
-state = find_state_index("KY")
-set_state_color(state, "#0080ff")
-state = find_state_index("KS")
-set_state_color(state, "#0080ff")
-state = find_state_index("UT")
-set_state_color(state, "#0080ff")
-state = find_state_index("MS")
-set_state_color(state, "#0080ff")
-state = find_state_index("OH")
-set_state_color(state, "#0080ff")
-state = find_state_index("PA")
-set_state_color(state, "#0080ff")
-state = find_state_index("NV")
-set_state_color(state, "#0080ff")
-state = find_state_index("IA")
-set_state_color(state, "#0080ff")
-state = find_state_index("SC")
-set_state_color(state, "#0080ff")
-state = find_state_index("OR")
-set_state_color(state, "#0080ff")
-state = find_state_index("NH")
-set_state_color(state, "#0080ff")
-state = find_state_index("WY")
-set_state_color(state, "#0080ff")
-#Average
-state = find_state_index("WV")
-set_state_color(state, "#4cccff")
-state = find_state_index("SD")
-set_state_color(state, "#4cccff")
-state = find_state_index("MD")
-set_state_color(state, "#4cccff")
-state = find_state_index("FL")
-set_state_color(state, "#4cccff")
-state = find_state_index("AR")
-set_state_color(state, "#4cccff")
-state = find_state_index("MN")
-set_state_color(state, "#4cccff")
-state = find_state_index("NM")
-set_state_color(state, "#4cccff")
-state = find_state_index("CT")
-set_state_color(state, "#4cccff")
-state = find_state_index("WI")
-set_state_color(state, "#4cccff")
-state = find_state_index("NJ")
-set_state_color(state, "#4cccff")
-state = find_state_index("OK")
-set_state_color(state, "#4cccff")
-state = find_state_index("TX")
-set_state_color(state, "#4cccff")
-state = find_state_index("ND")
-set_state_color(state, "#4cccff")
-state = find_state_index("AK")
-set_state_color(state, "#4cccff")
-state = find_state_index("CA")
-set_state_color(state, "#4cccff")
-#Neutral
-state = find_state_index("VT")
-set_state_color(state, "#8c8c8c")
-state = find_state_index("NE")
-set_state_color(state, "#8c8c8c")
-state = find_state_index("NC")
-set_state_color(state, "#8c8c8c")
-state = find_state_index("DE")
-set_state_color(state, "#8c8c8c")
-state = find_state_index("MI")
-set_state_color(state, "#8c8c8c")
-state = find_state_index("CO")
-set_state_color(state, "#8c8c8c")
-state = find_state_index("ID")
-set_state_color(state, "#8c8c8c")
-state = find_state_index("GA")
-set_state_color(state, "#8c8c8c")
-#LowHappiness
-state = find_state_index("IN")
-set_state_color(state, "#ff9999")
-state = find_state_index("IL")
-set_state_color(state, "#ff9999")
-state = find_state_index("AZ")
-set_state_color(state, "#ff9999")
-state = find_state_index("RI")
-set_state_color(state, "#ff9999")
-#LittleHappiness
-state = find_state_index("MT")
-set_state_color(state, "#FF0000")
-state = find_state_index("TN")
-set_state_color(state, "#FF0000")
+
+#Assign value to happiness rating
+#Code redacted
 
 # write svg file
 wsvg(paths, attributes=attributes, svg_attributes=svg_attributes, filename='new_map.svg')
